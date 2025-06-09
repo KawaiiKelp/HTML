@@ -1,0 +1,19 @@
+.text {
+    margin-left: 40px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.img {
+    width: 30%;
+    height: 30%;
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
