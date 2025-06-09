@@ -1,0 +1,60 @@
+body {
+    margin: 0; padding: 0;
+}
+
+.divide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 300px 0;
+}
+
+.img {
+    width: 300px; height: 300px;
+}
+
+button {
+    width: 200px; height: 100px;
+    border-radius: 50%; border: 1px solid black;
+    cursor: pointer;
+    margin: 0 50px;
+}
+
+#left {
+    background-color: lightgoldenrodyellow;
+}
+
+#left:active {
+    background-color: yellow;
+}
+
+#right {
+    background-color: lightblue;
+}
+
+#right:active {
+    background-color: blue;
+    color: white;
+}
+
+.toLeft {
+    animation: rotateLeft 0.25s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+.toRight {
+    animation: rotateRight 0.25s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes rotateLeft {
+	to {
+		transform: rotate(-360deg);
+	}
+}
+
+@keyframes rotateRight {
+	to {
+		transform: rotate(360deg);
+	}
+}   
