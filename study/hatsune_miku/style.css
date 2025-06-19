@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+input {
+    padding: 8px;
+    font-size: 16px;
+}
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-left: 5px;
+}
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}

@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+    padding: 30px;
+}
+    
+li {
+    margin: 10px 0;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #9ebd13 0%, #008552 100%)     /* 하늘빛 */;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}

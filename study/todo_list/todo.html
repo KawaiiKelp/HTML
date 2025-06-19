@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>할 일 목록</title>
+    </head>
+    <body>
+        <div>
+            <h1>
+                <span class="emoji">✅</span>
+                <span class="gradient-text">To-Do List</span>
+            </h1>
+        
+            <input type="text" id="todoInput" placeholder="여기에 할 일 입력하기..">
+            <button onclick="addTodo()">추가</button>
+            <button onclick="clearAll()">전체 삭제</button>
+
+            <ul id="todoList">
+                <!-- 할 일 항목이 여기 추가됨 -->
+            </ul>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

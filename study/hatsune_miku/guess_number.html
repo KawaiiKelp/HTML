@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>숫자맞추기</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>숫자 맞추기 게임</h1>
+        <p>1부터 100 사이의 숫자를 맞춰보세요</p>
+
+        <input type="number" id="guessInput" min="1" max="100" />
+        <button onclick="checkGuess()">확인</button>
+        <button onclick="resetGame()">재시작</button>
+
+        <div id="result"></div>
+        
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
