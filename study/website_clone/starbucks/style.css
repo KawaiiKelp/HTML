@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+
+nav ul, li {
+    list-style: none;
+}
+
+.header_wrap {
+    position: fixed;
+    
+    background: #f6f5ef;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #e5e5e5;
+    
+    height: 120px;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.header_wrap_inner {
+    height: 120px;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+    
+    background: transparent;
+    position: relative;
+}
+
+.header_wrap_inner h1.logo {
+    width: 75px;
+    height: 75px;
+    top: 22px;
+    left: 0;
+    
+    position: absolute;
+    cursor: pointer;
+    display: block;
+}
+
+.header_wrap_inner nav.util_nav {
+    height: 20px;
+    right: 93px;
+    top: 15px;
+    width: 464px;
+
+    background: url("../img/common/sdown_util_sep.png") no-repeat;
+    position: absolute;
+
+    display: block;
+}
+
+nav ul, li {
+    list-style: none;
+}
+
+.header_wrap_inner nav.util_nav ul li.util_nav01 {
+    width: 76px;
+    height: 20px;
+    float: left;
+    text-align: center;
+}
+
+.header_wrap_inner nav.util_nav ul li.util_nav02 {
+    margin-left: 1px;
+    width: 107px;
+    height: 20px;
+    float: left;
+    text-align: center;
+}
+
+.header_wrap_inner nav.util_nav ul li.util_nav03 {
+    margin-left: 1px;
+    width: 181px;
+    height: 20px;
+    float: left;
+    text-align: center;
+}
+
+.header_wrap_inner nav.util_nav ul li.util_nav02 {
+    margin-left: 1px;
+    width: 97px;
+    height: 20px;
+    float: left;
+    text-align: center;
+}
+
+.header_wrap_inner h1.logo a {
+    background: url(https://www.starbucks.co.kr/common/img/common/logo.png);
+    
+    display: block;
+    overflow: hidden;
+
+    height: 100%;
+    text-indent: -20000px;
+    width: 100%;
+}
+
+.header_wrap_inner p.btn_search {
+    height: 32px;
+    right: 54px;
+    top: 9px;
+    width: 32px;
+
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    vertical-align: baseline;
+
+    display: block;
+}
+
+.header_wrap_inner p.btn_search a {
+    height: 34px;
+    width: 34px;
+
+    display: block;
+}
+
+.header_wrap_inner p.btn_search a img {
+    right: 7px;
+    top: 6px;
+
+    position: absolute;
+    max-width: 100%;
+}
+
+.a11y {
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+p.btn_search input {
+    background: none;
+    border: none;
+    color: #777;
+    display: none;
+
+    font-size: 12px;
+    height: 22px;
+    left: 0;
+    top: 5px;
+    width: 123px;
+
+    padding: 0 10px;
+    position: absolute;
+}
+
+.header_sub_nav {
+    height: 66px;
+    top: 54px;
+    position: absolute;
+    left: 0;
+    display: block;
+}
+
+.header_sub_nav_inner {
+    height: 66px;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.header_sub_nav_inner > ul {
+    float: right;
+}
+
+.header_sub_nav_inner ul li.header_sub_nav01 {
+    width: 89px;
+    float: left;
+}
+
+.header_sub_wrap {
+    left: 0;
+    top: 66px;
+    position: absolute;
+    width: 100%;
+}
+
+.header_sub {
+    padding: 20px 0 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.header_sub_inner {
+    margin-left: -550px;
+    width: 1100px;
+    left: 50%;
+    position: relative;
+}
+
+.header_sub_ttl {
+    padding-bottom: 12px;
+}
+
+.header_sub_inner ul {
+    width: 220px;
+    float: left;
+}
+
+.header_sub_inner ul li {
+    padding: 3px 0;
+    width: 100%;
+}

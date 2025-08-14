@@ -1,0 +1,83 @@
+* { 
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  color: #000;
+  border-collapse: collapse;
+}
+
+li, ul {
+  list-style-type: none;
+}
+
+.navbar-color {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 95px;
+  background: #ffcccc;
+  box-shadow: 0px 1px 0px 0px #ff9d9d;
+  z-index: 999;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 95px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 999;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding-left: 20px;
+}   
+
+.header-logo {
+  height: 60px;
+}
+
+.nav-menu {
+  font-family: "Kalam", cursive;
+  font-weight: 300;
+  display: flex;
+  line-height: 95px;
+  padding-right: 40px;
+}
+
+.nav-menu li {
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+.nav-menu li a:hover:not(.active) {
+  color: #c75b5b;
+  transition: all .25s ease-in-out;
+}
+
+.nav-menu li a.active {
+  color: #c75b5b;
+}
+
+
+body {
+  padding-top: 100px;
+  background: white;
+}
+
+.section {
+            height: 1000px; /* 각 섹션의 높이 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            padding-top: 50px; /* 고정된 네비게이션바 때문에 콘텐츠가 가려지지 않도록 */
+            box-sizing: border-box; /* padding이 높이에 포함되도록 */
+        }
